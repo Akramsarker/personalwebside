@@ -1,0 +1,260 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #40514e;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+h2, h3 {
+    color: #66bfbf;
+    font-size: 2.5rem;
+}
+
+/* utility classes */
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.bg-light {
+    background: #D6D6D6;
+}
+.btn {
+    background: #66bfbf;
+    color: #fff;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.btn:hover {
+   background:  #6da0a0;
+}
+
+/* header */
+header {
+    background: url(../img/hemaloy.jpg.png) no-repeat center center/cover;
+    height: 100vh;
+}
+
+/* navbar */
+#navbar .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+#navbar .main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar ul li {
+    margin-left: 2rem;
+}
+
+#navbar ul li a {
+   color: #66bfbf;
+   font-size: 2rem;
+   font-family: 'Caveat', cursive;
+}
+
+#navbar ul li:first-child {
+    margin-left: 0;
+}
+
+#navbar h1 {
+     color: #66bfbf;
+    font-size: 5rem;
+   
+}
+/******** SHOWCASE ********/
+#showcase {
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#showcase .top-cloud {
+    position: absolute;
+    top: 18rem;
+    left: 12rem;
+}
+
+#showcase .bottom-cloud {
+    position: absolute;
+    top: 1rem;
+    right: 12rem;
+}
+
+#showcase .showcase-content {
+    position: absolute;
+    top: 7rem;
+    left: 0;
+    right: 0;
+    align-items: center;
+    margin-top: 0;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 7rem;
+    font-family: 'Sacramento', cursive;
+    color:  #66bfbf;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#showcase .showcase-content p {
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+/* middle-container */
+#middle-container {
+    background: #F6D485;
+}
+ #middle-container .profile {
+     text-align: center;
+     padding: 7rem 0;
+ }
+
+  #middle-container img {
+     width:300px;
+     height: 300px;
+     margin-bottom: 3rem;
+ }
+
+ #middle-container h2{
+    margin-bottom: 4rem;
+ }
+
+ #middle-container i {
+     color: #f00;
+ }
+ #middle-container p{
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding: 20px;
+ }
+
+ #middle-container .intro {
+     width: 50%;
+     margin: auto;
+     line-height: 1.8rem;
+ }
+
+/* skills */
+#skills {
+    padding: 4rem 0;
+}
+#skills  img {
+    height: 250px;
+    width: 250px;
+}
+
+ #skills .info-right {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 7rem;
+ }
+ 
+ #skills .info-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skills div {
+    padding: 0 3rem;
+}
+
+ #skills  h2 {
+    font-size: 3.2rem;
+    padding: 3rem;
+    text-align: center;
+    margin-bottom: 6rem;
+ }
+
+ #skills  h3 {
+     text-transform: capitalize;
+     margin-bottom: 2rem;
+ }
+
+ #skills  p {
+    text-transform: capitalize;
+    padding-bottom: 2rem;
+    line-height: 1.5rem;
+    padding: 20px;
+ }
+ 
+ /* contact me */
+ #contact-me .contact-me {
+     text-align: center;
+     padding: 2rem;
+     margin-bottom: 4rem;
+ }
+
+ 
+ #contact-me .contact-me h2{
+     color: #66bfbf;
+     padding: 2rem;
+     font-size: 3.2rem;
+     margin-bottom: 4rem;
+ }
+
+ #contact-me .contact-me h3 {
+     font-size: 2rem;
+     margin-bottom: 1.7rem;
+     color: #66bfbf;
+ }
+
+ #contact-me .contact-me p {
+     margin-bottom: 3rem;
+     line-height: 2rem;
+ }
+
+
+ /* footer */
+ #main-footer .bottom-container {
+     text-align: center;
+     background: #66bfbf;
+     padding-top: 3rem; 
+ }
+ 
+ #main-footer .bottom-container .social i{
+     font-size: 3rem;
+     border-radius: 50%;
+     color: #fff;
+     margin-bottom: 2rem;
+     margin-left: 2rem;
+     transition: 2s;
+ }
+ #main-footer .bottom-container .social i:hover {
+     color: #333;
+     transform: scale(.9);
+ }
+
+ #main-footer .bottom-container p {
+     padding: 1.5rem;
+     color: #fff;
+ }
+
+
+
+ 

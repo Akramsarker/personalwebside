@@ -1,0 +1,58 @@
+
+/* navbar */
+#navbar h1 {
+    display: none;
+}
+
+#navbar .main-nav ul {
+  margin-bottom: 2rem;
+}
+
+#navbar .main-nav ul a {
+    font-size: 1.5rem;
+}
+
+#navbar .main-nav {
+    flex-direction: column;
+}
+
+/* showcase */
+#showcase .showcase-content {
+    top: 1rem;
+    line-height: 7rem;
+}
+
+#showcase .top-cloud, #showcase .bottom-cloud{
+    display: none;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 6rem;
+}
+
+/* middle-container */ 
+#middle-container .profile {
+    text-align: center;
+    padding: 0;
+}
+ #middle-container .intro {
+  width: 100%;
+ }
+   
+/* skills */
+#skills {
+    padding: 0;
+}
+
+#skills div {
+    padding: 0;
+}
+
+#skills .info-right,
+#skills .info-left {
+    flex-direction: column;
+    text-align: center;
+}
+#skaills img {
+    margin-bottom: 2rem;
+}
